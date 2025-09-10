@@ -1,0 +1,247 @@
+/* Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  color: #333;
+
+}
+
+/* Navbar */
+
+header {
+
+  background: #222;
+
+  padding: 15px 50px;
+
+  position: fixed;
+
+  width: 100%;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.logo {
+
+  color: #ff9800;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+nav ul li {
+
+  margin-left: 20px;
+
+}
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+nav a:hover {
+
+  color: #ff9800;
+
+}
+
+/* Hero */
+
+.hero {
+
+  height: 100vh;
+
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+
+              url('https://source.unsplash.com/1600x900/?coding,technology') no-repeat center/cover;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: white;
+
+  text-align: center;
+
+}
+
+.hero span {
+
+  color: #ff9800;
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  background: #ff9800;
+
+  color: #fff;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  transition: 0.3s;
+
+}
+
+.btn:hover {
+
+  background: #e68900;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 80px 50px;
+
+  text-align: center;
+
+}
+
+.skills .skill-box {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+}
+
+.skill-box p {
+
+  background: #f4f4f4;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+}
+
+/* Projects */
+
+.projects {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+}
+
+.project-card {
+
+  background: #f4f4f4;
+
+  padding: 40px;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+
+}
+
+.project-card:hover {
+
+  background: #ddd;
+
+}
+
+/* Contact */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+form input, form textarea {
+
+  margin: 10px 0;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: 1px solid #aaa;
+
+}
+
+form button {
+
+  cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #222;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
